@@ -27,7 +27,7 @@ class Header extends React.Component{
   }
   render() {
     return (
-      <div>
+      <div className="container-menu">
         <Navbar fixed="top" light expand="sm">
         <div className="container">
 
@@ -36,13 +36,13 @@ class Header extends React.Component{
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/about">О Нас</NavLink>
+                <NavLink style={{color:"white"}} href="/about">О Нас</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/tech">Техника</NavLink>
+                <NavLink style={{color:"white"}} href="/tech">Техника</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact">Контакты</NavLink>
+                <NavLink style={{color:"white"}} href="/contact">Контакты</NavLink>
               </NavItem>
             </Nav>
           </Collapse>   

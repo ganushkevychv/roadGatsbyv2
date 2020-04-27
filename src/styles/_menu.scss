@@ -6,9 +6,9 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 a {
-  color: #0056b3;
+  color: white;
   &:hover {
-    color: #007bff;
+    color: white;
     text-decoration: none;
   }
 }
@@ -24,19 +24,30 @@ h1 {
   // border-left: 1px solid rgba(0, 0, 0, 0.4);
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   line-height: 1;
+  
 }
 .nav-link{
   text-align: center;
 }
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-brand {
-  color:rgb(43, 17, 3);
+  color:white;
   &:hover {
-    color: rgb(88, 35, 6);
+    color: white;
     
   }
 }
 ul {
   list-style: none;
   padding: 0;
+}
+.nav-link{
+  color: white;
+}
+button.navbar-toggler{
+background-image: url("../images/tral.jpg");
+}
+.navbar.navbar-expand-sm.navbar-light.fixed-top{
+background-color:  #141824;
+padding: 0px;
 }
