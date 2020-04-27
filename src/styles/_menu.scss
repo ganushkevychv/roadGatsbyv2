@@ -1,0 +1,42 @@
+.container#content {
+  margin-top: 60px;
+}
+body {
+
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  color: #0056b3;
+  &:hover {
+    color: #007bff;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+ 
+}
+.navbar {
+  background-color: white;
+  // border-right: 1px solid rgba(0, 0, 0, 0.4);
+  // border-left: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  line-height: 1;
+}
+.nav-link{
+  text-align: center;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+  color:rgb(43, 17, 3);
+  &:hover {
+    color: rgb(88, 35, 6);
+    
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
