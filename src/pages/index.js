@@ -1,6 +1,5 @@
 import React from "react";
 import SEO from "../components/seo";
-import BackgroundImage from "gatsby-background-image"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Gallery from "../components/gallery"
@@ -24,6 +23,14 @@ const IndexPage = (props) => (
     <Gallery/>
     <h2 className="tech-title">География</h2>
 <Maps/>
+<div className="contacts">
+  <h2 className="contact-title">Руководитель - Киричков Владимир Ильич</h2>
+  <div className="contacts-text">
+    <p className="contact-text large"><a className="contact-link" href="tel:+380992983816">+38(099)2983816</a></p>
+    <p className="contact-text medium"><a className="contact-link" href="tel:+380992983816">+38(097)4055785</a></p>
+    <p className="contact-text"><a className="contact-link" href="mailto:kirichkov2016@gmail.com">kirichkov2016@gmail.com</a></p>
+  </div>
+</div>
   </Layout>
 )
 

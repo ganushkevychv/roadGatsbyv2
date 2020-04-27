@@ -37,3 +37,21 @@ margin-bottom: 10px;
 .text-overlay{
 color: white;   
 }
+.contact-title{
+    padding-top: 50px;
+    font-size: large;
+}
+.contact-title,.contact-text{
+    display: flex;
+    justify-content: center;
+}
+.contact-link,.contact-link:visited,.contact-link:hover{
+    text-decoration: none;
+    color:black;
+}
+.large{
+    font-size: 50px;
+}
+.medium{
+    font-size: 30px;
+}
