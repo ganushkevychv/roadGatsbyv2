@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Gallery from "../components/gallery"
 import Maps from "../components/maps"
+import Logo from "../images/me.png"
 const IndexPage = (props) => (
   <Layout>
       <SEO title="Home" />
@@ -31,6 +32,14 @@ const IndexPage = (props) => (
     <p className="contact-text"><a className="contact-link" href="mailto:kirichkov2016@gmail.com">kirichkov2016@gmail.com</a></p>
   </div>
 </div>
+<div className="site-footer">
+      <h4 className="text-center">All rights reserved© {new Date().getFullYear()}, Created by
+            {` `}
+            <a href="https://vladyslav-ganushkevych.netlify.com/"><img className="link-logo" src={Logo} width="30" 
+    height="30" alt="logo"/></a></h4>
+      
+     
+      </div>
   </Layout>
 )
 

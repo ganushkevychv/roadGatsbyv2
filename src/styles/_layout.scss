@@ -40,17 +40,19 @@ color: white;
 .contact-title{
     padding-top: 50px;
     font-size: large;
+    color: lightgray;
 }
 .contact-title,.contact-text{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .contact-link,.contact-link:visited,.contact-link:hover{
     text-decoration: none;
-    color:black;
+    color:whitesmoke;
 }
 .large{
-    font-size: 50px;
+    font-size: 40px;
 }
 .medium{
     font-size: 30px;
