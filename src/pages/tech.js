@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import SEO from "../components/seo"
-import BackgroundImage from "gatsby-background-image"
+import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import { Card, CardDeck } from 'react-bootstrap';
 import { Button } from '@material-ui/core';
@@ -20,13 +20,12 @@ import trailer from "../images/trailer.jpg"
 import call from "../images/call.jpg"
 import grader from "../images/grader.jpg"
 import tral from "../images/tral.jpg"
+import Logo from "../images/me.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Tech = (props) => (
-  <BackgroundImage className="backgroundTech" 
-    fluid={props.data.techImage.childImageSharp.fluid}
-    >
+  <Layout>
   <div className="container-tech">
     <SEO title="Page two" />
     <h1 className="header">Наша техника</h1>
@@ -366,7 +365,15 @@ backgroundColor:"rgba(0,0,0,0.4)"
     }}>Назад</Link></Button>
     </div>
     </div>
-    </BackgroundImage>
+    <div className="site-footer">
+      <h4 className="text-center">All rights reserved© {new Date().getFullYear()}, Created by
+            {` `}
+            <a href="https://vladyslav-ganushkevych.netlify.com/"><img className="link-logo" src={Logo} width="30" 
+    height="30" alt="logo"/></a></h4>
+      
+     
+      </div>
+    </Layout>
 )
 
 export default Tech

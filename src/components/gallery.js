@@ -35,6 +35,7 @@ return (
       className="d-block w-100"
       src={excavator}
       alt="excavator"
+      
     />
 
     <Carousel.Caption>

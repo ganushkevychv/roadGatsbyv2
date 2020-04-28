@@ -1,4 +1,10 @@
 .carousel{
     display: flex;
     justify-content: center;
+   
+}
+.d-block{
+    object-fit: cover;
+    width: auto;
+    height:100%;
 }
