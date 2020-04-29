@@ -1,18 +1,16 @@
 import React from "react"
 import { Button } from '@material-ui/core'
 import { Link } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
-
+import Layout from "../components/layout"
+import Logo from "../images/me.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const About = (props) => (
-  <BackgroundImage className="backgroundAbout"
-  fluid={props.data.aboutImage.childImageSharp.fluid}
-  >
+  <Layout>
   <div className="container">
     <SEO title="about" />
     <h1 className="header">Елисаветдорбуд</h1>
@@ -29,6 +27,7 @@ const About = (props) => (
     </Card>
     </div>
     <div>
+      <div className="accordition">
     <Accordion >
   <Card style={{
       backgroundColor:"rgba(0,0,0,0.4)"
@@ -150,6 +149,7 @@ const About = (props) => (
   </Card>
 </Accordion>
 </div>
+</div>
 <div className="button-back">
     <Button style={{
     border:"3px solid grey",
@@ -161,7 +161,15 @@ const About = (props) => (
     }}>Назад</Link></Button>
     </div>
     </div>
-    </BackgroundImage>
+    <div className="about-footer">
+      <h4 className="text-center">All rights reserved© {new Date().getFullYear()}, Created by
+            {` `}
+            <a href="https://vladyslav-ganushkevych.netlify.com/"><img className="link-logo" src={Logo} width="30" 
+    height="30" alt="logo"/></a></h4>
+      
+     
+      </div>
+    </Layout>
 )
 
 export default About

@@ -3,33 +3,29 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 import { Button } from '@material-ui/core';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Layout from "../components/layout"
 import tel from "../images/tel.png"
 import gmail from "../images/gmail.png"
+import Logo from "../images/me.png"
 import ListGroup from 'react-bootstrap/ListGroup'
-import BackgroundImage from "gatsby-background-image"
+
 import { graphql } from "gatsby"
 
 const Contact = (props) => (
-  <BackgroundImage className="backgroundContacts"
-    fluid={props.data.contactsImage.childImageSharp.fluid}
-    >
+<Layout>
   <div className="container">
     <SEO title="contact" />
     <div className="contacts-h1">
     <h1>Контакты</h1>
     </div>
-    <div className="contact-card">
-    <ListGroup style={{
-      backgroundColor:"rgba(0,0,0,0.4)",
-      border:"3px solid grey",
-      borderRadius:"3px"
-    }}>
-  <ListGroup.Item style={{backgroundColor:"transparent"}}><p className="text"><a className="link-text" href="tel:+380992983816"><img className="tel" src={tel} alt="tel"/> +380992983816</a></p></ListGroup.Item>
-  <ListGroup.Item style={{backgroundColor:"transparent"}}><p className="text"><a className="link-text" href="tel:+380974055785"><img className="tel" src={tel} alt="tel"/> +380974055785</a></p></ListGroup.Item>
-  <ListGroup.Item style={{backgroundColor:"transparent"}}><p className="text"><a className="link-text" href="mailto:kirichkov2016@gmail.com"><img className="gmail" src={gmail} alt="gmail"/> kirichkov2016@gmail.com</a></p></ListGroup.Item>
-</ListGroup>
-    </div>
+    <div className="contacts">
+  <h2 className="contact-title">Руководитель - Киричков Владимир Ильич</h2>
+  <div className="contacts-text">
+    <p className="contact-text large"><a className="contact-link" href="tel:+380992983816">+38(099)2983816</a></p>
+    <p className="contact-text medium"><a className="contact-link" href="tel:+380992983816">+38(097)4055785</a></p>
+    <p className="contact-text"><a className="contact-link" href="mailto:kirichkov2016@gmail.com">kirichkov2016@gmail.com</a></p>
+  </div>
+</div>
     <div className="button-back">
     <Button style={{
     border:"3px solid grey",
@@ -41,7 +37,13 @@ const Contact = (props) => (
     }}>Назад</Link></Button>
     </div>
   </div>
-  </BackgroundImage>
+  <div className="contact-footer">
+      <h4 className="text-center">All rights reserved© {new Date().getFullYear()}, Created by
+            {` `}
+            <a href="https://vladyslav-ganushkevych.netlify.com/"><img className="link-logo" src={Logo} width="30" 
+    height="30" alt="logo"/></a></h4>
+      </div>
+  </Layout>
 )
 
 export default Contact

@@ -365,7 +365,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
     }}>Назад</Link></Button>
     </div>
     </div>
-    <div className="site-footer">
+    <div className="tech-footer">
       <h4 className="text-center">All rights reserved© {new Date().getFullYear()}, Created by
             {` `}
             <a href="https://vladyslav-ganushkevych.netlify.com/"><img className="link-logo" src={Logo} width="30" 
