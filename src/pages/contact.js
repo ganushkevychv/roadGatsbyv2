@@ -19,7 +19,7 @@ const Contact = (props) => (
     <h1>Контакты</h1>
     </div>
     <div className="contacts">
-  <h2 className="contact-title">Руководитель - Киричков Владимир Ильич</h2>
+  <h2 className="contact-title" padding-top="30px">Руководитель - Киричков Владимир Ильич</h2>
   <div className="contacts-text">
     <p className="contact-text large"><a className="contact-link" href="tel:+380992983816">+38(099)2983816</a></p>
     <p className="contact-text medium"><a className="contact-link" href="tel:+380992983816">+38(097)4055785</a></p>
