@@ -368,7 +368,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
     <div className="tech-footer">
       <h4 className="text-center">All rights reserved© {new Date().getFullYear()}, Created by
             {` `}
-            <a href="https://vladyslav-ganushkevych.netlify.com/"><img className="link-logo" src={Logo} width="30" 
+            <a href="https://vladyslav-ganushkevych.netlify.app/"><img className="link-logo" src={Logo} width="30" 
     height="30" alt="logo"/></a></h4>
       
      
