@@ -4,11 +4,7 @@ import SEO from "../components/seo"
 import { Button } from '@material-ui/core';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../components/layout"
-import tel from "../images/tel.png"
-import gmail from "../images/gmail.png"
 import Logo from "../images/me.png"
-import ListGroup from 'react-bootstrap/ListGroup'
-
 import { graphql } from "gatsby"
 
 const Contact = (props) => (
