@@ -3,7 +3,7 @@ module.exports = {
     title: `Елисаветдорбуд`,
     description: `Ремонт дорог – наше призвание!
     Считается, что положить асфальт – элементарный процесс. Но чтобы сделать это правильно и качественно, нужно обратиться к нам.`,
-    author: `@gatsbyjs`,
+    author: `ganushkevychv@gmail.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,6 +29,13 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+      {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+          trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none" ,
+        },
+      },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
