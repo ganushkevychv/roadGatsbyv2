@@ -34,7 +34,7 @@ const Tech = (props) => (
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }} >
-    <Card.Img variant="top" src={roller} style={{width:"100%"}} />
+    <Card.Img variant="top" src={roller} alt="roller" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title >Каток</Card.Title>
       <Card.Text >
@@ -54,7 +54,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }}>
-    <Card.Img variant="top" src={excavator} style={{width:"100%"}} />
+    <Card.Img variant="top" src={excavator} alt="excavator" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title >Экскаватор</Card.Title>
       <Card.Text >
@@ -74,7 +74,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }}>
-    <Card.Img variant="top" src={grader} style={{width:"100%"}} />
+    <Card.Img variant="top" src={grader} alt="grader" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title >Бульдозер</Card.Title>
       <Card.Text >
@@ -98,7 +98,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
 <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
  }} >
-    <Card.Img variant="top" src={bulldozer} style={{width:"100%"}} />
+    <Card.Img variant="top" src={bulldozer} alt="bulldozer" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Автогрейдер</Card.Title>
       <Card.Text >
@@ -118,7 +118,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }} >
-    <Card.Img variant="top" src={loader} style={{width:"100%"}} />
+    <Card.Img variant="top" src={loader} alt="loader" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Погрузчик</Card.Title>
       <Card.Text>
@@ -138,7 +138,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }} >
-    <Card.Img variant="top" src={maz} style={{width:"100%"}} />
+    <Card.Img variant="top" src={maz} alt="maz" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Грузовой автотранспорт</Card.Title>
       <Card.Text>
@@ -164,7 +164,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
 <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
  }} >
-    <Card.Img variant="top" src={trailer} style={{width:"100%"}} />
+    <Card.Img variant="top" src={trailer} alt="trailer" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Прицеп</Card.Title>
       <Card.Text >
@@ -184,7 +184,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }} >
-    <Card.Img variant="top" src={tral} style={{width:"100%"}} />
+    <Card.Img variant="top" src={tral} alt="tral" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Трал</Card.Title>
       <Card.Text>
@@ -204,7 +204,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }} >
-    <Card.Img variant="top" src={dumper} style={{width:"100%"}} />
+    <Card.Img variant="top" src={dumper} alt="dumper" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Думпер</Card.Title>
       <Card.Text>
@@ -230,7 +230,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
 <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
  }} >
-    <Card.Img variant="top" src={mini} style={{width:"100%"}} />
+    <Card.Img variant="top" src={mini} alt="mini" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Минигудронатор</Card.Title>
       <Card.Text >
@@ -250,7 +250,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }} >
-    <Card.Img variant="top" src={reno} style={{width:"100%"}} />
+    <Card.Img variant="top" src={reno} alt="reno" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Легковой автотранспорт</Card.Title>
       <Card.Text>
@@ -270,7 +270,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }} >
-    <Card.Img variant="top" src={ford} style={{width:"100%"}} />
+    <Card.Img variant="top" src={ford} alt="ford" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Легковой автотранспорт</Card.Title>
       <Card.Text>
@@ -296,7 +296,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
 <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
  }} >
-    <Card.Img variant="top" src={carTrailer} style={{width:"100%"}} />
+    <Card.Img variant="top" src={carTrailer} alt="car trailer" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Прицеп</Card.Title>
       <Card.Text >
@@ -316,7 +316,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }} >
-    <Card.Img variant="top" src={stuff} style={{width:"100%"}} />
+    <Card.Img variant="top" src={stuff} alt="stuff" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Персонал</Card.Title>
       <Card.Text>
@@ -336,7 +336,7 @@ backgroundColor:"rgba(0,0,0,0.4)"
   <Card style={{ width: '18rem',
 backgroundColor:"rgba(0,0,0,0.4)"
 }} >
-    <Card.Img variant="top" src={call} style={{width:"100%"}} />
+    <Card.Img variant="top" src={call} alt="call" style={{width:"100%"}} />
     <Card.Body>
       <Card.Title>Консультации</Card.Title>
       <Card.Text>Консультации специалистов</Card.Text>

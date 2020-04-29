@@ -9,7 +9,7 @@ return (
 backgroundColor:"rgba(0,0,0,0.4)",
 
 }} >
-<Card.Img variant="top" src={allmaps} style={{width:"100%"}} />
+<Card.Img variant="top" src={allmaps} alt="map" style={{width:"100%"}} />
 <Card.Body>
   <div className="card-text">
   <Card.Title>Кировоградская, Черкасская, Полтавская, Винницкая, Днепроперовская, Николаевская область</Card.Title>
