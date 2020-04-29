@@ -3,7 +3,7 @@ module.exports = {
     title: `Елисаветдорбуд`,
     description: `Ремонт дорог – наше призвание!
     Считается, что положить асфальт – элементарный процесс. Но чтобы сделать это правильно и качественно, нужно обратиться к нам.`,
-    author: ``,
+    author: `ganushkevychv@gmail.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
