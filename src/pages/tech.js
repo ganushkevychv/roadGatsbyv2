@@ -27,7 +27,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Tech = (props) => (
   <Layout>
   <div className="container-tech">
-    <SEO title="Page two" />
+    <SEO title="Техника | Елисаветдорбуд" />
     <h1 className="header">Наша техника</h1>
     <div className="cards">
     <CardDeck>

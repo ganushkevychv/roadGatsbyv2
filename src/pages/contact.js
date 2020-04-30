@@ -10,7 +10,7 @@ import { graphql } from "gatsby"
 const Contact = (props) => (
 <Layout>
   <div className="container">
-    <SEO title="contact" />
+    <SEO title="Контакты | Елисаветдорбуд" />
     <div className="contacts-h1">
     <h1>Контакты</h1>
     </div>

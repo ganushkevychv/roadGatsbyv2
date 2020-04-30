@@ -7,7 +7,7 @@ import Maps from "../components/maps"
 import Logo from "../images/me.png"
 const IndexPage = (props) => (
   <Layout>
-      <SEO title="Home" />
+      <SEO title="Елисаветдорбуд" />
 
       <div className="background-header">
           <div className="text-overlay">
