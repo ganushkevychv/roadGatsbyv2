@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const About = (props) => (
   <Layout>
   <div className="container">
-    <SEO title="О нас | Елисаветдорбуд" />
+    <SEO title="О нас | Елисаветдорбуд" keywords={[`Ремонт дорог Кропивницкий`, `Кировоградская область`, `строительство дорог Кропивницкий`, `ремонт тротуаров Кропивницкий`]} />
     <h1 className="header">Елисаветдорбуд</h1>
     <div>
     <Card style={{

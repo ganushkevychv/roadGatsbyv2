@@ -7,7 +7,7 @@ import Maps from "../components/maps"
 import Logo from "../images/me.png"
 const IndexPage = (props) => (
   <Layout>
-      <SEO title="Елисаветдорбуд" />
+      <SEO title="Елисаветдорбуд" keywords={[`аренда техники`, `Кировоградская область`, `строительство дорог Кропивницкий`, `ремонт тротуаров Кропивницкий`]} />
 
       <div className="background-header">
           <div className="text-overlay">

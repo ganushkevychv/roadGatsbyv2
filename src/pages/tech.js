@@ -27,7 +27,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Tech = (props) => (
   <Layout>
   <div className="container-tech">
-    <SEO title="Техника | Елисаветдорбуд" />
+    <SEO title="Техника | Елисаветдорбуд" keywords={[`аренда техники`, `Кировоградская область`, `строительство дорог Кропивницкий`, `ремонт тротуаров Кропивницкий`]}/>
     <h1 className="header">Наша техника</h1>
     <div className="cards">
     <CardDeck>
